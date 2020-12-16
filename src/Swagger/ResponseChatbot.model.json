@@ -1,0 +1,14 @@
+{
+  "type": "object",
+  "required": [
+    "data"
+  ],
+  "properties": {
+    "data": {
+      "type": "string"
+    }
+  },
+  "example": {
+    "data": "곧 먹으려고 준비 중이야. 너는?"
+  }
+}

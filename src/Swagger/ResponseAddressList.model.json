@@ -1,0 +1,14 @@
+{
+  "type": "object",
+  "required": [
+    "data"
+  ],
+  "properties": {
+    "data": {
+      "type": "array"
+    }
+  },
+  "example": {
+    "data": "[{'name':'','voice': '','desc': ''}]"
+  }
+}

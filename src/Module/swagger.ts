@@ -20,5 +20,8 @@ const options = {
 };
 
 const swaggerSpec = swaggerJsDoc(options);
+swaggerSpec.definitions.ResponseChatbot = require("../Swagger/ResponseChatbot.model.json");
+swaggerSpec.definitions.ResponseAddressList = require("../Swagger/ResponseAddressList.model.json");
+swaggerSpec.definitions.ResponseChatList = require("../Swagger/ResponseChatList.model.json");
 
 export { swaggerSpec };
